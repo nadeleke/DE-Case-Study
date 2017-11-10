@@ -1,0 +1,5 @@
+,fl_date,unique_carrier,carrier,tail_num,origin,origin_city_name,origin_state_abr,origin_state_nm,dest,dest_city_name,dest_state_abr,dest_state_nm,dep_time_blk,arr_time_blk
+count,27573,27573,27573,27573,27573,27573,27573,27573,27573,27573,27573,27573,27573,27573
+unique,30,1,1,699,12,11,9,9,129,125,47,47,19,19
+top,2014-09-18,DL,DL,N915AT,ATL,"Atlanta, GA",GA,Georgia,ATL,"Atlanta, GA",FL,Florida,0900-0959,1600-1659
+freq,985,27573,27573,96,19255,19255,19255,19255,2867,2867,4253,4253,2201,2121

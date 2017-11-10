@@ -1,0 +1,5 @@
+,fl_date,unique_carrier,carrier,tail_num,origin,origin_city_name,origin_state_abr,origin_state_nm,dest,dest_city_name,dest_state_abr,dest_state_nm,dep_time_blk,arr_time_blk
+count,1152554,1152554,1152554,1147522,1152554,1152554,1152554,1152554,1152554,1152554,1152554,1152554,1152554,1152554
+unique,181,14,14,4531,12,11,9,9,270,266,52,52,19,19
+top,2014-06-27,WN,WN,N864AS,ATL,"Atlanta, GA",TX,Texas,LAX,"Chicago, IL",CA,California,0800-0859,1600-1659
+freq,6990,172584,172584,706,185318,185318,226002,226002,37452,38872,166141,166141,91020,89086

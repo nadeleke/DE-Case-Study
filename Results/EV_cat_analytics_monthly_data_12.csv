@@ -1,0 +1,5 @@
+,fl_date,unique_carrier,carrier,tail_num,origin,origin_city_name,origin_state_abr,origin_state_nm,dest,dest_city_name,dest_state_abr,dest_state_nm,dep_time_blk,arr_time_blk
+count,22457,22457,22457,22457,22457,22457,22457,22457,22457,22457,22457,22457,22457,22457
+unique,31,1,1,377,9,8,7,7,168,166,42,42,19,18
+top,2014-12-01,EV,EV,N909EV,IAH,"Houston, TX",TX,Texas,CLE,"Cleveland, OH",TX,Texas,1900-1959,1600-1659
+freq,826,22457,22457,127,6331,6331,7858,7858,560,560,2751,2751,2224,2192

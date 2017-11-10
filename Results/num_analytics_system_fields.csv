@@ -1,0 +1,5 @@
+,name,description
+count,50,50
+unique,50,50
+top,airline_id,"An identification number assigned by US DOT to identify a unique airline (carrier). A unique airline (carrier) is defined as one holding and reporting under the same DOT certificate regardless of its Code, Name, or holding company/corporation."
+freq,1,1

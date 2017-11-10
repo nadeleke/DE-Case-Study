@@ -1,0 +1,5 @@
+,fl_date,unique_carrier,carrier,tail_num,origin,origin_city_name,origin_state_abr,origin_state_nm,dest,dest_city_name,dest_state_abr,dest_state_nm,dep_time_blk,arr_time_blk
+count,1485394,1485394,1485394,1482872,1485394,1485394,1485394,1485394,1485394,1485394,1485394,1485394,1485394,1485394
+unique,91,14,14,4487,319,315,53,53,319,315,53,53,19,19
+top,2014-06-27,WN,WN,N487HA,ATL,"Chicago, IL",CA,California,ATL,"Chicago, IL",CA,California,0600-0659,1600-1659
+freq,17506,301811,301811,1075,93834,96129,189220,189220,93861,96190,189215,189215,107621,103277

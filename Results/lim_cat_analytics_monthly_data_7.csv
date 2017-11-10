@@ -1,0 +1,5 @@
+,fl_date,unique_carrier,carrier,tail_num,origin,origin_city_name,origin_state_abr,origin_state_nm,dest,dest_city_name,dest_state_abr,dest_state_nm,dep_time_blk,arr_time_blk
+count,87541,87541,87541,87525,87541,87541,87541,87541,87541,87541,87541,87541,87541,87541
+unique,31,3,3,1706,12,11,9,9,198,194,51,51,19,19
+top,2014-07-10,WN,WN,N905EV,ATL,"Atlanta, GA",GA,Georgia,ATL,"Atlanta, GA",CA,California,0800-0859,1600-1659
+freq,2978,32179,32179,127,27574,27574,27574,27574,4057,4057,8979,8979,6888,6544

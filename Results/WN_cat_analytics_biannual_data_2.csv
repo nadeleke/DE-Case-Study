@@ -1,0 +1,5 @@
+,fl_date,unique_carrier,carrier,tail_num,origin,origin_city_name,origin_state_abr,origin_state_nm,dest,dest_city_name,dest_state_abr,dest_state_nm,dep_time_blk,arr_time_blk
+count,185799,185799,185799,185733,185799,185799,185799,185799,185799,185799,185799,185799,185799,185799
+unique,184,1,1,645,9,9,8,8,81,80,41,41,19,19
+top,2014-12-30,WN,WN,N8601C,MDW,"Chicago, IL",IL,Illinois,MDW,"Chicago, IL",CA,California,0800-0859,2200-2259
+freq,1110,185799,185799,414,41325,41325,41325,41325,8684,8684,46030,46030,14199,13780

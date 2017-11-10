@@ -1,0 +1,5 @@
+,fl_date,unique_carrier,carrier,tail_num,origin,origin_city_name,origin_state_abr,origin_state_nm,dest,dest_city_name,dest_state_abr,dest_state_nm,dep_time_blk,arr_time_blk
+count,23786,23786,23786,23786,23786,23786,23786,23786,23786,23786,23786,23786,23786,23786
+unique,31,1,1,388,9,8,7,7,160,158,40,40,18,18
+top,2014-10-10,EV,EV,N905EV,IAH,"Houston, TX",TX,Texas,MCI,"Kansas City, MO",TX,Texas,1000-1059,1600-1659
+freq,832,23786,23786,111,7019,7019,8312,8312,614,614,2989,2989,1974,2228

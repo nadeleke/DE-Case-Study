@@ -1,0 +1,5 @@
+,fl_date,unique_carrier,carrier,tail_num,origin,origin_city_name,origin_state_abr,origin_state_nm,dest,dest_city_name,dest_state_abr,dest_state_nm,dep_time_blk,arr_time_blk
+count,29196,29196,29196,29196,29196,29196,29196,29196,29196,29196,29196,29196,29196,29196
+unique,31,1,1,691,12,11,9,9,127,123,45,45,19,19
+top,2014-10-02,DL,DL,N940DL,ATL,"Atlanta, GA",GA,Georgia,ATL,"Atlanta, GA",FL,Florida,0900-0959,1600-1659
+freq,1003,29196,29196,100,20291,20291,20291,20291,3028,3028,4622,4622,2455,2390

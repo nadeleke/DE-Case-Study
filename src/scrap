@@ -1,0 +1,84 @@
+CREATE TABLE IF NOT EXISTS carrier_history (
+    code VARCHAR (5) PRIMARY KEY,
+    description VARCHAR (250),
+    start_date DATE,
+    end_date DATE
+)
+
+CREATE TABLE IF NOT EXISTS quarterly_data_1 AS
+(
+    SELECT * FROM monthly_data_1 UNION ALL
+    SELECT * FROM monthly_data_2 UNION ALL
+    SELECT * FROM monthly_data_3 ORDER BY fl_date
+);
+
+CREATE TABLE IF NOT EXISTS quarterly_data_2 AS
+(
+    SELECT * FROM monthly_data_4 UNION ALL
+    SELECT * FROM monthly_data_5 UNION ALL
+    SELECT * FROM monthly_data_6 ORDER BY fl_date
+);
+
+CREATE TABLE IF NOT EXISTS quarterly_data_3 AS
+(
+    SELECT * FROM monthly_data_7 UNION ALL
+    SELECT * FROM monthly_data_8 UNION ALL
+    SELECT * FROM monthly_data_9 ORDER BY fl_date
+);
+
+CREATE TABLE IF NOT EXISTS quarterly_data_4 AS
+(
+    SELECT * FROM monthly_data_10 UNION ALL
+    SELECT * FROM monthly_data_11 UNION ALL
+    SELECT * FROM monthly_data_12 ORDER BY fl_date
+);
+
+CREATE TABLE IF NOT EXISTS biannual_data_1 AS
+(
+    SELECT * FROM quarterly_data_1 UNION ALL
+    SELECT * FROM quarterly_data_2 ORDER BY fl_date
+);
+
+CREATE TABLE IF NOT EXISTS biannual_data_2 AS
+(
+    SELECT * FROM quarterly_data_3 UNION ALL
+    SELECT * FROM quarterly_data_4 ORDER BY fl_date
+);
+
+CREATE TABLE IF NOT EXISTS yearly_data AS
+(
+    SELECT * FROM biannual_data_1 UNION ALL
+    SELECT * FROM biannual_data_2 ORDER BY fl_date
+);
+
+-- queries
+#1
+SELECT CONCAT(t1.origin, ' to ', t1.dest) AS route, COUNT(*) AS freq FROM monthly_data_1 t1 INNER JOIN monthly_data_1 t2 ON t1.origin = t2.origin AND t1.dest = t2.dest GROUP BY route ORDER BY freq DESC LIMIT 15;
+--
+
+#2
+SELECT unique_carrier, COUNT(*) AS freq FROM yearly_data GROUP BY unique_carrier ORDER BY freq DESC LIMIT 3;
+SELECT * FROM carrier_history WHERE code IN ('WN', 'DL','EV');
+-- ExpressJet Airlines Inc. (686021 flight for the yr)
+
+#3
+SELECT origin AS airport, sum(dep_del15) AS freq FROM yearly_data GROUP BY airport ORDER BY freq DESC LIMIT 10
+
+SELECT airport, SUM(freq) AS freq_total FROM (
+    (SELECT origin AS airport, sum(dep_del15) AS freq FROM yearly_data GROUP BY airport ORDER BY freq DESC LIMIT 10)
+    UNION ALL
+    (SELECT dest AS airport, sum(arr_del15) AS freq FROM yearly_data GROUP BY airport ORDER BY freq DESC LIMIT 10)
+) AS temp_table GROUP BY airport ORDER BY freq_total DESC LIMIT 10;
+
+SELECT dest AS airport, sum(arr_del15) AS freq FROM yearly_data WHERE dest
+ IN ('MDW','PHX','LAS','IAH','SFO','LAX','DEN','DFW','ATL','ORD') GROUP BY airport ORDER BY freq DESC;
+
+
+#4
+SELECT extract(dow FROM to_date(fl_date, 'YYYY-MM-DD')) AS dw, count(*) AS freq FROM monthly_data_1 GROUP BY dw ORDER BY freq DESC LIMIT 10;
+SELECT extract(dow FROM to_date(fl_date, 'YYYY-MM-DD')) AS dw, count(*) AS freq FROM biannual_data_1 GROUP BY dw ORDER BY freq DESC LIMIT 10;
+SELECT extract(dow FROM to_date(fl_date, 'YYYY-MM-DD')) AS dw, count(*) AS freq FROM yearly_data GROUP BY dw ORDER BY freq DESC ;
+
+SELECT to_char(to_date(fl_date, 'YYYY-MM-DD'), 'day')AS dw, count(*) AS freq FROM monthly_data_1 GROUP BY dw ORDER BY freq DESC ;
+SELECT to_char(to_date(fl_date, 'YYYY-MM-DD'), 'day')AS dw, count(*) AS freq FROM biannual_data_1 GROUP BY dw ORDER BY freq DESC ;
+SELECT to_char(to_date(fl_date, 'YYYY-MM-DD'), 'day')AS dw, count(*) AS freq FROM yearly_data GROUP BY dw ORDER BY freq DESC ;

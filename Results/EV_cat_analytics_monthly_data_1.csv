@@ -1,0 +1,5 @@
+,fl_date,unique_carrier,carrier,tail_num,origin,origin_city_name,origin_state_abr,origin_state_nm,dest,dest_city_name,dest_state_abr,dest_state_nm,dep_time_blk,arr_time_blk
+count,26095,26095,26095,26062,26095,26095,26095,26095,26095,26095,26095,26095,26095,26095
+unique,31,1,1,416,9,8,7,7,158,155,41,41,18,18
+top,2014-01-03,EV,EV,N880AS,ATL,"Atlanta, GA",TX,Texas,BNA,"Nashville, TN",TX,Texas,0800-0859,1600-1659
+freq,958,26095,26095,129,7568,7568,8503,8503,586,586,3466,3466,2132,2423

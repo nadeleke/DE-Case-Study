@@ -1,0 +1,5 @@
+,fl_date,unique_carrier,carrier,tail_num,origin,origin_city_name,origin_state_abr,origin_state_nm,dest,dest_city_name,dest_state_abr,dest_state_nm,dep_time_blk,arr_time_blk
+count,471949,471949,471949,467903,471949,471949,471949,471949,471949,471949,471949,471949,471949,471949
+unique,31,14,14,4398,301,297,53,53,301,297,53,53,19,19
+top,2014-01-03,WN,WN,N481HA,ATL,"Atlanta, GA",CA,California,ATL,"Atlanta, GA",CA,California,1700-1759,1600-1659
+freq,16726,91564,91564,356,30796,30796,60804,60804,30784,30784,60791,60791,34714,34922

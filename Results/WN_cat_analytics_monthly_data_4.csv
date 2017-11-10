@@ -1,0 +1,5 @@
+,fl_date,unique_carrier,carrier,tail_num,origin,origin_city_name,origin_state_abr,origin_state_nm,dest,dest_city_name,dest_state_abr,dest_state_nm,dep_time_blk,arr_time_blk
+count,29562,29562,29562,29557,29562,29562,29562,29562,29562,29562,29562,29562,29562,29562
+unique,30,1,1,582,9,9,8,8,80,79,41,41,18,19
+top,2014-04-24,WN,WN,N7713A,MDW,"Chicago, IL",IL,Illinois,LAS,"Las Vegas, NV",CA,California,0800-0859,1600-1659
+freq,1033,29562,29562,75,6776,6776,6776,6776,1409,1409,7396,7396,2502,2198

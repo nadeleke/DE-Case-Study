@@ -1,0 +1,5 @@
+,fl_date,unique_carrier,carrier,tail_num,origin,origin_city_name,origin_state_abr,origin_state_nm,dest,dest_city_name,dest_state_abr,dest_state_nm,dep_time_blk,arr_time_blk
+count,23721,23721,23721,23716,23721,23721,23721,23721,23721,23721,23721,23721,23721,23721
+unique,28,1,1,414,8,7,6,6,155,152,41,41,18,19
+top,2014-02-28,EV,EV,N28529,ATL,"Atlanta, GA",TX,Texas,BNA,"Nashville, TN",TX,Texas,0800-0859,1600-1659
+freq,945,23721,23721,107,6696,6696,7627,7627,520,520,3098,3098,1944,2084

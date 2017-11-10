@@ -1,0 +1,5 @@
+,fl_date,unique_carrier,carrier,tail_num,origin,origin_city_name,origin_state_abr,origin_state_nm,dest,dest_city_name,dest_state_abr,dest_state_nm,dep_time_blk,arr_time_blk
+count,189967,189967,189967,189602,189967,189967,189967,189967,189967,189967,189967,189967,189967,189967
+unique,30,14,14,4229,12,11,9,9,267,263,52,52,19,19
+top,2014-09-18,WN,WN,N931FR,ATL,"Chicago, IL",TX,Texas,LAX,"Chicago, IL",CA,California,0800-0859,1600-1659
+freq,6770,30303,30303,116,30196,32285,36521,36521,5939,6865,26722,26722,14988,14597

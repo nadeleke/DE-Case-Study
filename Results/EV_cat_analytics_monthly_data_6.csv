@@ -1,0 +1,5 @@
+,fl_date,unique_carrier,carrier,tail_num,origin,origin_city_name,origin_state_abr,origin_state_nm,dest,dest_city_name,dest_state_abr,dest_state_nm,dep_time_blk,arr_time_blk
+count,25833,25833,25833,25833,25833,25833,25833,25833,25833,25833,25833,25833,25833,25833
+unique,30,1,1,405,8,7,6,6,160,158,41,41,18,18
+top,2014-06-11,EV,EV,N880AS,IAH,"Houston, TX",TX,Texas,BNA,"Nashville, TN",TX,Texas,0800-0859,1600-1659
+freq,907,25833,25833,121,7145,7145,8541,8541,589,589,3222,3222,2232,2425

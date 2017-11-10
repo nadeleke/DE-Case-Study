@@ -1,0 +1,5 @@
+,fl_date,unique_carrier,carrier,tail_num,origin,origin_city_name,origin_state_abr,origin_state_nm,dest,dest_city_name,dest_state_abr,dest_state_nm,dep_time_blk,arr_time_blk
+count,23306,23306,23306,23306,23306,23306,23306,23306,23306,23306,23306,23306,23306,23306
+unique,30,1,1,392,9,8,7,7,163,161,41,41,19,19
+top,2014-09-12,EV,EV,N908EV,IAH,"Houston, TX",TX,Texas,BNA,"Nashville, TN",TX,Texas,1000-1059,1600-1659
+freq,869,23306,23306,114,6371,6371,7610,7610,581,581,2836,2836,1966,2170

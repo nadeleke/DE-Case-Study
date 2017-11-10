@@ -1,0 +1,5 @@
+,fl_date,unique_carrier,carrier,tail_num,origin,origin_city_name,origin_state_abr,origin_state_nm,dest,dest_city_name,dest_state_abr,dest_state_nm,dep_time_blk,arr_time_blk
+count,30949,30949,30949,30938,30949,30949,30949,30949,30949,30949,30949,30949,30949,30949
+unique,31,1,1,609,9,9,8,8,80,79,41,41,18,19
+top,2014-08-08,WN,WN,N662SW,MDW,"Chicago, IL",IL,Illinois,MDW,"Chicago, IL",CA,California,1000-1059,2200-2259
+freq,1075,30949,30949,82,7018,7018,7018,7018,1477,1477,7777,7777,2384,2432

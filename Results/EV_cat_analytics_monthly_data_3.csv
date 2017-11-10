@@ -1,0 +1,5 @@
+,fl_date,unique_carrier,carrier,tail_num,origin,origin_city_name,origin_state_abr,origin_state_nm,dest,dest_city_name,dest_state_abr,dest_state_nm,dep_time_blk,arr_time_blk
+count,26795,26795,26795,26793,26795,26795,26795,26795,26795,26795,26795,26795,26795,26795
+unique,31,1,1,415,8,7,6,6,161,159,41,41,19,19
+top,2014-03-03,EV,EV,N29515,ATL,"Atlanta, GA",TX,Texas,DTW,"Detroit, MI",TX,Texas,1000-1059,1000-1059
+freq,928,26795,26795,130,7399,7399,8811,8811,634,634,3567,3567,2324,2305
