@@ -165,6 +165,7 @@ def main():
     connection = engine.connect()
     result_proxy = connection.execute(stmt)
     results = result_proxy.fetchall()
+    connection.close()
 
 
 # ------------------------------------------------------
