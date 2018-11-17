@@ -4,7 +4,6 @@ from sqlalchemy.ext.declarative import declarative_base
 # Table base class
 Declarative_Base = declarative_base()
 
-
 # ------------------------------------------------------
 # Table classes used for creating tables (if not exist)
 # ------------------------------------------------------
