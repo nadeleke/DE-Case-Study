@@ -83,6 +83,7 @@ def main():
 
             print(100 * '#')
 
-
+    connection.close()
+    
 if __name__ == '__main__':
     main()
