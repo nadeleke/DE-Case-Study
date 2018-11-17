@@ -2,8 +2,8 @@ import re
 import ast
 import pandas as pd
 from sqlalchemy import create_engine, MetaData, Table
-from src.Table_classes import *
 from sqlalchemy.orm import sessionmaker
+from .Table_classes import Declarative_Base, Airport, Carrier_History, System_Fields
 
 
 # ------------------------------------------------------
