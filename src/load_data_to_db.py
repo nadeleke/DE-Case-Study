@@ -3,7 +3,7 @@ import ast
 import pandas as pd
 from sqlalchemy import create_engine, MetaData, Table
 from sqlalchemy.orm import sessionmaker
-from .Table_classes import Declarative_Base, Airport, Carrier_History, System_Fields
+from src.table_classes import Declarative_Base, Airport, Carrier_History, System_Fields
 
 
 # ------------------------------------------------------
